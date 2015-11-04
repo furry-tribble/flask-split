@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <title>Flask-Split</title>
-  <link rel="stylesheet" href="{{ url_for('.static', filename='css/bootstrap.min.css') }}">
-  <link rel="stylesheet" href="{{ url_for('.static', filename='css/dashboard.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/dashboard.css') }}">
 </head>
 <body>
   <div class="navbar">
@@ -21,7 +21,7 @@
     </div>
   </div>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script src="{{ url_for('.static', filename='js/bootstrap.min.js') }}"></script>
-  <script src="{{ url_for('.static', filename='js/dashboard.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
 </body>
 </html>
